@@ -1,0 +1,759 @@
+#bg {
+    background-color: black;
+    background-size: contain;
+    background-image: url("../images/clipboard-vector-flat-icon.gif");
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 1000px;
+    margin: auto;
+}
+
+.app-page {
+    display: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#title-page {
+    display: block;
+}
+
+.all-pages-heading {
+    margin: auto;
+    width: 300px;
+    padding-top: 125px;
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+#description {
+    width: 415px;
+    margin: 20px auto auto;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#description2 {
+    width: 415px;
+    margin: 15px auto auto;
+    padding-top: 25px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#title-page-footer {
+    padding-top: 450px;
+    width: 500px;
+    height: 120px;
+    margin: auto;
+}
+
+
+#title-page-signup-button {
+    float: left;
+}
+
+#title-page-login-button {
+    float: right;
+}
+
+#dashboard-page {
+    display: none;
+    /*background-color: #FF0000;*/
+}
+
+.banner {
+    display: block;
+    margin-left: 130px;
+    margin-top: 25px;
+    height: 40px;
+    width: 505px;
+    /*background-color: blueviolet;*/
+}
+
+.btn {
+    display: flex;
+    width: auto;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 20pt;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px dashed black;
+}
+
+.btn-double-footer {
+    display: flex;
+    width: auto;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 20pt;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 3px dashed black;
+}
+
+.btn-accounts {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px dashed black;
+    margin-right:5px;
+}
+
+.account-name {
+    margin-top: 5px;
+}
+
+.btn-sign-out {
+    display: block;
+    float: right;
+    width: 100px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px dashed black;
+    margin-right:5px;
+}
+
+#signup-page {
+    display: none;
+}
+
+#sp-heading {
+    margin: auto;
+    width: 300px;
+    padding-top: 125px;
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+.input-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 400px;
+}
+
+#sp-error-msg {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+#sp-first-name-div {
+    margin-top: 25px;
+}
+
+.sp-div {
+    margin-top: 25px;
+    height: 30px;
+}
+
+.sp-input {
+    width: 295px;
+    font-size: 20pt;
+    float: right;
+    background-color: purple;
+    color: white;
+}
+
+.sp-text {
+    width: 190px;
+    font-size: 20pt;
+    float: left;
+}
+
+#sp-last-name-div {
+    margin-top: 40px;
+}
+
+#sp-email-div {
+    margin-top: 25px;
+}
+
+.sp-password-div {
+    margin-top: 25px;
+}
+
+#sp-terms-div {
+    float: left;
+    width: 300px;
+    margin-top: 25px;
+}
+
+#sp-terms-checkbox {
+    float: left;
+    margin-right: 5px;
+}
+
+#sp-terms-label {
+    margin-top: 25px;
+}
+
+#sp-buttons-div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 350px;
+}
+
+#sp-enter-button {
+    float: left;
+}
+
+#sp-clear-button {
+    float: right;
+}
+
+#sp-correct {
+    margin-left: 0;
+    margin-top: 350px;
+    width: 560px;
+}
+
+#login-page {
+    display: none;
+}
+
+#lp-error-msg {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    font-size: medium;
+    color: #FF0000;
+    display: block;
+}
+
+#lp-email-div {
+    margin-top: 50px;
+}
+
+.lp-form-label {
+    width: 200px;
+    height: 30px;
+    font-size: 20pt;
+    float: left;
+}
+
+#lp-email-input {
+    width: 225px;
+    height: 25px;
+    font-size: 20pt;
+    margin-left: 25px;
+    background-color: purple;
+    color: white;
+}
+
+#lp-password-div {
+    margin-top: 25px;
+}
+
+#lp-password-input {
+    width: 225px;
+    height: 25px;
+    font-size: 20pt;
+    margin-left: 25px;
+    background-color: purple;
+    color: white;
+}
+
+#lp-checkbox-div {
+    margin-top: 25px;
+    margin-right: 5px;
+    height: 30px;
+}
+
+#lp-forgot-password {
+    float: left;
+    margin-right: 10px;
+    background-color: purple;
+    color: white;
+}
+
+#lp-checkbox-label {
+    padding-top: 8px;
+}
+
+#lp-buttons-div {
+    display: flex;
+    padding-top: 450px;
+    justify-content: center;
+}
+
+#lp-button {
+    display: block;
+}
+
+.list-row {
+    margin-left: 100px;
+    margin-top: 1em;
+    width: 72%;
+    height: 38px;
+    display: none;
+}
+
+.list-entry{
+    float: right;
+    width: 82%;
+    font-size: xx-large;
+    padding-left: 50px;
+}
+
+#container {
+    background-color: black;
+}
+
+#btn-container {
+    padding-top: 3em;
+    width:80%;
+    margin: auto;
+}
+
+.btn2 {
+    width: 100px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px dashed black;
+    margin-right:5px;
+}
+
+.sign-out-text {
+    margin-top:5px;
+}
+
+.acc-text {
+    margin-top: 5px;
+}
+
+#tdl-entry {
+    height: 100px;
+    margin-top: 40px;
+}
+
+#btn-clear {
+    display: block;
+}
+
+#btn-enter {
+   display: block;
+}
+
+.tdl-label {
+    margin-top: 15px;
+    width: 400px;
+    height: 42px;
+    line-height: 42px;
+    font-size: large;
+}
+
+.tdl-input {
+    float: right;
+    width: 250px;
+    height: 2em;
+    font-size: large;
+    align-items: center;
+    background-color: purple;
+    color: white;
+}
+
+
+#forgot_pw_cb {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#app-dashboard {
+    display: none;
+    overflow-y: auto;
+    height: 550px;
+    margin-left: 130px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+#user-todo-lists {
+    display: none;
+}
+
+#list-of-lists {
+    display: block;
+    margin-top: 20px;
+    overflow-y: auto;
+    height: 550px;
+    margin-left: 130px;
+    width: 500px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 20pt;
+    background-color: purple;
+    color: white;
+}
+
+#dashboard-footer {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 50px;
+}
+
+#dashboard-add-new-list {
+    display: block;
+    margin-top: 10px;
+    width: auto;
+}
+
+#dashboard-add-new-list-text {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#new-list-page {
+    display: none;
+    margin-top: 50px;
+}
+
+#nlp-new-list-div {
+    margin: 50px auto;
+    width: 500px;
+}
+
+#nlp-new-list-label {
+    float: left;
+    font-size: 20pt;
+    width: 125px;
+}
+
+#nlp-new-list-input {
+    width: 350px;
+    height: 25px;
+    float: right;
+    font-size: 20pt;
+    background-color: purple;
+    color: white;
+}
+
+#nlp-add-new-task {
+    float: right;
+}
+
+#nlp-footer {
+    margin-top: 500px;
+    width: 500px;
+}
+
+#nlp-button-submit {
+    width: 150px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px dashed black;
+}
+
+#nlp-add-new-list-text {
+    margin-top: 5px;
+}
+
+#task-list-page {
+    display: none;
+}
+
+#sbl-banner {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 25px;
+    height: 40px;
+    width: auto;
+}
+
+#sublist-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#sublist {
+    width: 505px;
+    height: 490px;
+    overflow-y: auto;
+    background-color: purple;
+    color: white;
+    margin: 0 auto;
+}
+
+.footer-text {
+    justify-content: center;
+    align-content: center;
+}
+
+.check-mark-column {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.empty-column {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: #988e96;
+}
+
+.subList-item {
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20pt;
+    float: left;
+    height: 30px;
+}
+
+#sublist-empty {
+    font-size: 20pt;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#sbl-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#task-add-new-task {
+    float: right;
+    padding-top: 10px;
+}
+
+#add-new-item-text {
+    margin-top: 10px;
+}
+
+#task-entry-modify-page {
+    display: none;
+}
+
+#task-container {
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 125px;
+    width: 500px;
+    height: 35px;
+}
+
+#task-new-list-label {
+    font-size: 20pt;
+    margin-top: 40px;
+    float: left;
+}
+
+#tem-input {
+    font-size: 20pt;
+    width: 425px;
+    margin-top: 40px;
+    float: right;
+    background-color: purple;
+    color: white;
+}
+
+#tem-correct {
+    margin-top: 425px;
+}
+
+#task-footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+#tem-add-new-task {
+    margin-top: 10px;
+}
+
+.sub-heading {
+    font-size: 30pt;
+    height: 1em;
+    display: table;
+    margin: 0 auto;
+    color: blue;
+}
+
+#custom-modify-task-btn {
+}
+
+#task-modify-page {
+}
+
+#task-modify-container {
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 125px;
+    width: 500px;
+}
+
+#task-modify-label {
+    font-size: 20pt;
+    margin-top: 40px;
+    float: left;
+}
+
+#task-modify-input {
+    font-size: 20pt;
+    width: 425px;
+    margin-top: 40px;
+    float: right;
+    background-color: purple;
+    color: white;
+}
+
+#task-modify-metalist-container {
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 125px;
+    width: 500px;
+}
+
+#modify-metalist-label {
+    font-size: 20pt;
+    margin-top: 40px;
+    margin-left: 0;
+    float: left;
+}
+
+#modify-metalist-input {
+    font-size: 20pt;
+    width: 500px;
+    margin-top: 40px;
+    float: left;
+    background-color: purple;
+    color: white;
+}
+
+#custom-modify-metalist-btn {
+    width: 200px;
+}
+
+.ae-text {
+    width: 190px;
+    font-size: 20pt;
+    float: left;
+}
+
+#ae-error-msg {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.ae-div {
+    margin-top: 25px;
+    height: 30px;
+}
+
+.ae-input {
+    width: 295px;
+    font-size: 20pt;
+    float: right;
+    background-color: purple;
+    color: white;
+}
+
+#ae-buttons-div {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 300px;
+}
+
+#ae-submit-button {
+    float: left;
+}
+
+#ae-clear-button {
+    float: right;
+}
+
+#ae-email-text {
+    margin-left: 255px;
+    font-size: 20pt;
+}
+
+.home {
+    height: 50px;
+    width: auto;
+}
+
+.home-double {
+    height: 55px;
+    width: auto;
+    float: left;
+}
+
+.mid-home {
+    height: 50px;
+    width: auto;
+    margin-left: 140px;
+}
+
+.triple-footer {
+    display: block;
+    margin: auto;
+    width: 560px;
+    height: 55px;
+    background-color: grey;
+}
+
+.double-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 55px;
+    margin-left: 130px;
+    background-color: grey;
+}
+
+#custom-modify-metalist-btn {
+    float: right;
+}
+
+#ae-correction {
+    margin-top: 300px;
+    margin-left: 0px;
+    width: 560px;
+}
+
+#double-right {
+    float: right;
+    text-align: center;
+}
